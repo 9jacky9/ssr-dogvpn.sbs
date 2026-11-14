@@ -185,3 +185,17 @@ article a:not(.button):not(.brand):hover {
   z-index: 2 !important;
   cursor: pointer !important;
 }
+
+/* 4. Pricing Plan Purchase Button */
+.plan .button {
+  width: 100% !important;
+  margin-top: 24px !important;
+  text-align: center !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12) !important;
+  transition: transform 0.2s ease, filter 0.2s ease, box-shadow 0.2s ease !important;
+}
+.plan .button:hover {
+  transform: translateY(-2px) !important;
+  filter: brightness(0.92) !important;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18) !important;
+}
